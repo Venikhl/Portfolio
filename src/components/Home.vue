@@ -17,15 +17,15 @@ export default {
       }, 2000); // меняем слово каждые 2 секунды
     }
   },
-  props: {
-    diplomaSTEP2: String,
-    IELTS: String,
-    TarotApp: String,
-    InnoSchedule: String,
-    StoryMarks: String,
-    diplomaSTEP1: String,
-    innobot: String
-  }
+  // props: {
+  //   diplomaSTEP2: String,
+  //   IELTS: String,
+  //   TarotApp: String,
+  //   InnoSchedule: String,
+  //   StoryMarks: String,
+  //   diplomaSTEP1: String,
+  //   innobot: String
+  // }
 }
 </script>
 
@@ -191,12 +191,12 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img :src="innobot" class="img-fluid" alt="">
+              <img src="./portfolio/innobot.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>InnoScheduleBot - Innopolis schedule bot for students.</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/innobot.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./portfolio/innobot.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1" target="_blank"><i class="bx bx-plus"></i></a>
                   <a href="https://t.me/Inno_schedule_bot" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -206,12 +206,12 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-diploma">
             <div class="portfolio-wrap">
-              <img :src="diplomaSTEP1" class="img-fluid" alt="">
+              <img src="./portfolio/diplomaSTEP1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>ITStep diploma.</h4>
                 <p>Diploma</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/diplomaSTEP1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 1" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./portfolio/diplomaSTEP1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 1" target="_blank"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -219,12 +219,12 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-diploma">
             <div class="portfolio-wrap">
-              <img :src="diplomaSTEP2" class="img-fluid" alt="">
+              <img src="./portfolio/diplomaSTEP2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Taken ITStep courses.</h4>
                 <p>Diploma</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/diplomaSTEP2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 2" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./portfolio/diplomaSTEP2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 2" target="_blank"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -232,12 +232,12 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-diploma">
             <div class="portfolio-wrap">
-              <img :src="IELTS" class="img-fluid" alt="">
+              <img src="./portfolio/IELTS.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>IELTS diploma.</h4>
                 <p>Diploma</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/IELTS.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 2" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./portfolio/IELTS.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 2" target="_blank"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -245,12 +245,12 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img :src="TarotApp" class="img-fluid" alt="">
+              <img src="./portfolio/TarotApp.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>TarotApp - application for fortune telling.</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/TarotApp.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./portfolio/TarotApp.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3" target="_blank"><i class="bx bx-plus"></i></a>
                   <a href="https://github.com/Venikhl/Tarot" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -259,12 +259,12 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img :src="InnoSchedule" class="img-fluid" alt="">
+              <img src="./portfolio/InnoSchedule.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>InnoSchedule - website for Innopolis students.</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/InnoSchedule.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./portfolio/InnoSchedule.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus"></i></a>
                   <a href="https://master--flourishing-kataifi-ec68d1.netlify.app" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -273,12 +273,12 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img :src="StoryMarks" class="img-fluid" alt="">
+              <img src="./portfolio/StoryMarks.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>StoryMarks - website for saving progress of reading and watching.</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/StoryMarks.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a href="./portfolio/StoryMarks.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus"></i></a>
                   <a href="https://disk.yandex.ru/i/rccSZRtVxLEYKQ" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
