@@ -1,5 +1,6 @@
 <script>
 export default {
+  
   data() {
     return {
       words: ["Student", "Designer", "Java Developer"],
@@ -15,6 +16,15 @@ export default {
         this.currentWordIndex = (this.currentWordIndex + 1) % this.words.length;
       }, 2000); // меняем слово каждые 2 секунды
     }
+  },
+  props: {
+    diplomaSTEP2: String,
+    IELTS: String,
+    TarotApp: String,
+    InnoSchedule: String,
+    StoryMarks: String,
+    diplomaSTEP1: String,
+    innobot: String
   }
 }
 </script>
@@ -181,7 +191,7 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="../assets/img/portfolio/innobot.png" class="img-fluid" alt="">
+              <img :src="innobot" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>InnoScheduleBot - Innopolis schedule bot for students.</h4>
                 <p>App</p>
@@ -196,7 +206,7 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-diploma">
             <div class="portfolio-wrap">
-              <img src="../assets/img/portfolio/diplomaSTEP1.jpg" class="img-fluid" alt="">
+              <img :src="diplomaSTEP1" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>ITStep diploma.</h4>
                 <p>Diploma</p>
@@ -209,7 +219,7 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-diploma">
             <div class="portfolio-wrap">
-              <img src="../assets/img/portfolio/diplomaSTEP2.jpg" class="img-fluid" alt="">
+              <img :src="diplomaSTEP2" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Taken ITStep courses.</h4>
                 <p>Diploma</p>
@@ -222,7 +232,7 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-diploma">
             <div class="portfolio-wrap">
-              <img src="../assets/img/portfolio/IELTS.png" class="img-fluid" alt="">
+              <img :src="IELTS" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>IELTS diploma.</h4>
                 <p>Diploma</p>
@@ -235,7 +245,7 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="../assets/img/portfolio/TarotApp.png" class="img-fluid" alt="">
+              <img :src="TarotApp" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>TarotApp - application for fortune telling.</h4>
                 <p>App</p>
@@ -249,7 +259,7 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="../assets/img/portfolio/InnoSchedule.png" class="img-fluid" alt="">
+              <img :src="InnoSchedule" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>InnoSchedule - website for Innopolis students.</h4>
                 <p>Web</p>
@@ -263,7 +273,7 @@ export default {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="../assets/img/portfolio/StoryMarks.png" class="img-fluid" alt="">
+              <img :src="StoryMarks" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>StoryMarks - website for saving progress of reading and watching.</h4>
                 <p>Web</p>
