@@ -196,7 +196,7 @@ export default {
                 <h4>InnoScheduleBot - Innopolis schedule bot for students.</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/innobot.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a :href="innobot" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1" target="_blank"><i class="bx bx-plus"></i></a>
                   <a href="https://t.me/Inno_schedule_bot" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -211,7 +211,7 @@ export default {
                 <h4>ITStep diploma.</h4>
                 <p>Diploma</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/diplomaSTEP1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 1" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a :href="diplomaSTEP1" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 1" target="_blank"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -224,7 +224,7 @@ export default {
                 <h4>Taken ITStep courses.</h4>
                 <p>Diploma</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/diplomaSTEP2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 2" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a :href="diplomaSTEP2" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 2" target="_blank"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -237,7 +237,7 @@ export default {
                 <h4>IELTS diploma.</h4>
                 <p>Diploma</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/IELTS.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 2" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a :href="IELTS" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 2" target="_blank"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -250,7 +250,7 @@ export default {
                 <h4>TarotApp - application for fortune telling.</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/TarotApp.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a :href="TarotApp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3" target="_blank"><i class="bx bx-plus"></i></a>
                   <a href="https://github.com/Venikhl/Tarot" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -264,7 +264,7 @@ export default {
                 <h4>InnoSchedule - website for Innopolis students.</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/InnoSchedule.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a :href="InnoSchedule" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus"></i></a>
                   <a href="https://master--flourishing-kataifi-ec68d1.netlify.app" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -278,7 +278,7 @@ export default {
                 <h4>StoryMarks - website for saving progress of reading and watching.</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="src/assets/img/portfolio/StoryMarks.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus"></i></a>
+                  <a :href="StoryMarks" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3" target="_blank"><i class="bx bx-plus"></i></a>
                   <a href="https://disk.yandex.ru/i/rccSZRtVxLEYKQ" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
