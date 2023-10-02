@@ -24,7 +24,11 @@ export default {
     InnoSchedule: String,
     StoryMarks: String,
     diplomaSTEP1: String,
-    innobot: String
+    STEP: String,
+    ELAB: String,
+    bebras: String,
+    innobot: String,
+
   }
 }
 </script>
@@ -212,6 +216,45 @@ export default {
                 <p>Diploma</p>
                 <div class="portfolio-links">
                   <a :href="diplomaSTEP1" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 1" target="_blank"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-diploma">
+            <div class="portfolio-wrap">
+              <img :src="ELAB" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ELAB.Asia diploma.</h4>
+                <p>Diploma</p>
+                <div class="portfolio-links">
+                  <a :href="ELAB" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 1" target="_blank"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-diploma">
+            <div class="portfolio-wrap">
+              <img :src="STEP" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ITStep hackathon diploma.</h4>
+                <p>Diploma</p>
+                <div class="portfolio-links">
+                  <a :href="STEP" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 1" target="_blank"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-diploma">
+            <div class="portfolio-wrap">
+              <img :src="bebras" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>BEBRAS diploma.</h4>
+                <p>Diploma</p>
+                <div class="portfolio-links">
+                  <a :href="bebras" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Diploma 1" target="_blank"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
