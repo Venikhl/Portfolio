@@ -158,6 +158,7 @@ export default {
             <li>Desktop Application Development (WPF)</li>
             <li>Web Technologies (ASP.NET AJAX)</li>
             <li>UML</li>
+            <li>Java</li>
             <li>Python</li>
             <li>PHP</li>
             <li>Frontend Frameworks (Angular, React)</li>
