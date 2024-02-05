@@ -72,7 +72,7 @@ export default {
 
         <div class="section-title">
           <h2>About</h2>
-          <p>Hi! I'm Gleb, a dynamic 18-year-old from Innopolis University. While I've dived deep into programming languages like Java, C++, and Python, I'm also fluent in English and Russian. Let's discuss exciting projects or simply connect to share ideas!</p>
+          <p>Hi! I'm Gleb, a dynamic 19-year-old from Innopolis University. While I've dived deep into programming languages like Java, C++, and Python, I'm also fluent in English and Russian. Let's discuss exciting projects or simply connect to share ideas!</p>
         </div>
 
         <div class="row">
@@ -94,7 +94,7 @@ export default {
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>18</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>19</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>g.o.pavlov2019@gmail.com</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
@@ -121,7 +121,7 @@ export default {
 
     <div class="row">
       <div class="col-lg-6">
-        <h3 class="resume-title">Sumary</h3>
+        <h3 class="resume-title">Summary</h3>
         <div class="resume-item pb-0">
           <h4>Pavlov Gleb</h4>
           <p><em>I approach every task with enthusiasm and a genuine passion for what I do. Feedback and revisions are always welcome; I see them as opportunities for growth and refinement in my work.</em></p>
