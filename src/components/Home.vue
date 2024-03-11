@@ -4,7 +4,8 @@ export default {
   data() {
     return {
       words: ["Student", "Designer", "Java Developer"],
-      currentWordIndex: 0
+      currentWordIndex: 0,
+      isMobileNavActive: false
     };
   },
   mounted() {
@@ -15,7 +16,10 @@ export default {
       setInterval(() => {
         this.currentWordIndex = (this.currentWordIndex + 1) % this.words.length;
       }, 2000); // меняем слово каждые 2 секунды
-    }
+    },
+    toggleMobileNav() {
+            this.isMobileNavActive = !this.isMobileNavActive;
+        }
   },
   props: {
     diplomaSTEP2: String,
@@ -37,7 +41,13 @@ export default {
 
 <template>
    <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+   <i class="bi bi-list mobile-nav-toggle d-lg-none" @click="toggleMobileNav"></i>
+  <ul v-if="isMobileNavActive" class="mobile-nav-menu">
+      <li><a href="#hero" class="nav-link scrollto active">Home</a></li>
+      <li><a href="#about" class="nav-link scrollto">About</a></li>
+      <li><a href="#resume" class="nav-link scrollto">Resume</a></li>
+      <li><a href="#portfolio" class="nav-link scrollto">Portfolio</a></li>
+  </ul>
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
 

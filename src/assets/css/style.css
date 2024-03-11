@@ -267,7 +267,32 @@ h6 {
   color: #fff;
   background-color: #bb0514; /* The blue background remains consistent for active state */
 }
+.mobile-nav-menu {
+  position: fixed;
+  top: 50px; /* Adjust this value as needed */
+  right: 10px;
+  z-index: 9999;
+  background-color: #343536;
+  border: 1px solid #343536;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
+.mobile-nav-menu li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.mobile-nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.mobile-nav-menu a:hover {
+  color: white;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
