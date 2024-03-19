@@ -163,15 +163,15 @@ export default {
             <li>Object-Oriented Programming (C++)</li>
             <li>Database Theory</li>
             <li>MS SQL Server</li>
-            <li>Web Development (HTML5, CSS3, JQuery)</li>
-            <li>Game Development (Unity)</li>
+            <li>Web Development (HTML5, CSS3, JS)</li>
+            <!-- <li>Game Development (Unity)</li> -->
             <li>Desktop Application Development (WPF)</li>
             <li>Web Technologies (ASP.NET AJAX)</li>
             <li>UML</li>
             <li>Java</li>
             <li>Python</li>
             <li>PHP</li>
-            <li>Frontend Frameworks (Angular, React)</li>
+            <!-- <li>Frontend Frameworks (Angular, React)</li> -->
           </ul>
           <p>These areas have not only enriched my understanding but have also allowed me to participate in a wide range of projects and continuously expand my expertise.</p>
         </div>
