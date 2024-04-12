@@ -1,4 +1,13 @@
 <script setup>
+import { useI18n } from 'vue-i18n';
+const { t, locale } = useI18n({useScope: 'global'});
+
+const toogleLanguage = () => {
+  locale.value ==='en' ? locale.value = 'ru' : locale.value = 'en';
+  console.log(locale.value)
+
+}
+
 import diplomaSTEP2 from "./assets/img/portfolio/DiplomaSTEP2.jpg";
 import IELTS from "./assets/img/portfolio/IELTS.png";
 import TarotApp from "./assets/img/portfolio/TarotApp.png";
@@ -13,6 +22,7 @@ import Home from './components/Home.vue'
 </script>
 
 <template>
+  <!-- <button @click="toogleLanguage">OOOHHH</button> -->
 <Home
     :diplomaSTEP2="diplomaSTEP2"
     :IELTS="IELTS"
@@ -24,5 +34,6 @@ import Home from './components/Home.vue'
     :ELAB="ELAB"
     :bebras="bebras"
     :innobot="innobot"
+    :toogleLanguage="toogleLanguage"
   />
 </template>

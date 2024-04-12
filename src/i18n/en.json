@@ -1,0 +1,99 @@
+{
+  "language": "English",
+  "name": "Gleb Pavlov",
+  "sections": {
+    "hero": {
+      "title": "Home"
+    },
+    "about": {
+      "title": "About Me",
+      "Birthday": "Date of Birth",
+      "BirthdayContent": "November 10, 2004",
+      "Phone": "Phone",
+      "City": "City",
+      "CityContent": "Innopolis, Russia",
+      "Age": "Age",
+      "Degree": "Education",
+      "DegreeContent": "Bachelor's Degree",
+      "Email": "Email",
+      "Freelance": "Freelance",
+      "FreelanceContent": "Available",
+      "content": "Hi! I'm Gleb, a dynamic 19-year-old student at Innopolis University. I'm deeply engaged in programming languages like Java, C++, and Python, and I'm fluent in English and Russian. Let's discuss interesting projects or share ideas!",
+      "content2": "Although a significant part of my time is dedicated to studies, full-time employment with a tight schedule is not the best option for me right now. However, if there are job opportunities accommodating students' schedules, I'm ready for new opportunities."
+    },
+    "resume": {
+      "title": "Resume",
+      "content": "Although I don't have traditional work experience, my journey is filled with continuous self-improvement. I have completed numerous courses to enhance my skills and stay at the forefront of my field. Additionally, I have participated in several projects, allowing me to apply and test my knowledge in practice. Rest assured, I know my craft and am always ready to take on new challenges and invest in new ventures."
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "content": "In this portfolio, you will find a comprehensive overview of my professional achievements, academic successes, projects, and works.",
+      "all": "All",
+      "work": "Works",
+      "diploma": "Diplomas",
+      "web": "Web",
+      "InnoScheduleBot": "InnoScheduleBot - Bot for Innopolis students' schedule.",
+      "itstepDiploma": "IT Step Academy Diploma",
+      "itstepCourses": "Attended courses at IT Step Academy",
+      "elabDiploma": "ELAB.ASIA Diploma",
+      "IELTSDiploma": "IELTS Diploma",
+      "bebrasDiploma": "BEBRAS Diploma",
+      "itstepHakatonDiploma": "IT Step Academy Hackathon Diploma",
+      "InnoSchedule": "InnoSchedule - Website for Innopolis students.",
+      "StryMarks": "StryMarks - Website for tracking reading and viewing progress.",
+      "TarotApp": "TarotApp - Application for tarot card reading.",
+      "WebOne": "Website",
+      "DiplomaOne": "Diploma",
+      "AppOne": "Application"
+    },
+    "summary": {
+      "title": "Summary",
+      "content": "I approach every task with enthusiasm and genuine passion for what I do. Feedback and corrections are always welcome; I see them as opportunities for growth and improvement in my work.",
+      "city": "Almaty, Kazakhstan"
+    },
+    "additionalInfo": {
+      "title": "Additional Information",
+      "ui_ux_designer": "UI/UX Designer",
+      "java_web_developer": "Java & Web Developer",
+      "current_course": "Currently, I am a second-year student at Innopolis University, majoring in Data Science and Artificial Intelligence."
+    }
+  },
+  "contact": {
+    "phone": "+7 953 834 12 12",
+    "email": "g.o.pavlov2019@gmail.com",
+    "city": "Innopolis, Russia"
+  },
+  "education": {
+    "title": "Education",
+    "degree": "Bachelor's Degree",
+    "university": "Innopolis University",
+    "location": "Tatarstan, Russia",
+    "faculty": "Faculty of Computer and Engineering Sciences",
+    "specialty": "Informatics and Computer Engineering",
+    "field_of_study": "Data Analysis and Artificial Intelligence",
+    "certifications": [
+      "IT Step Academy",
+      "IELTS"
+    ],
+    "years": {
+      "itstep": "2018 - 2022",
+      "university": "2022 - 2025"
+    },
+    "afterspeach": "These areas have not only enriched my understanding but also allowed me to participate in a wide range of projects and continuously expand my knowledge."
+  },
+  "skills": [
+    "Fundamentals of Information Technology",
+    "C Programming",
+    "Object-Oriented Programming (C++)",
+    "Database Theory",
+    "MS SQL Server",
+    "Web Development (HTML5, CSS3, JS)",
+    "Desktop Application Development (WPF)",
+    "Web Technologies (ASP.NET AJAX)",
+    "UML",
+    "Java",
+    "Python",
+    "PHP"
+  ],
+  "availability": "Available for freelance opportunities"
+}
